@@ -1,0 +1,10 @@
+@import url('./__title/intro__title.css');
+@import url('./__text/intro__text.css');
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: normal;
+    flex-direction: column;
+    max-width: 75%;
+}

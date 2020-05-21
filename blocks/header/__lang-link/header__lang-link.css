@@ -1,0 +1,14 @@
+@import url('./_not-active/header__lang-link_not-active.css');
+@import url('./_active/header__lang-link_active.css');
+
+.header__lang-link {
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    transition: opacity ease-in 0.35s;
+}
+
+
+.header__lang-link:hover {
+    opacity: 0.6;
+}

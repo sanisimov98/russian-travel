@@ -1,0 +1,16 @@
+.cover__overlay {
+    background-color: #2A2C2F4D;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color ease-in 0.35s;
+    color: white;
+    text-decoration: none;
+}
+
+.cover__overlay:hover {
+    background-color: #2A2C2FCC;
+}

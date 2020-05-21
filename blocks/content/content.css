@@ -1,0 +1,5 @@
+.content {
+    display: grid;
+    justify-items: center;
+    row-gap: 92px;
+}
