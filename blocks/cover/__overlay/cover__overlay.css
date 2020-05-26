@@ -8,7 +8,7 @@
     text-align: center;
     flex-direction: column;
     align-items: center;
-    transition: opacity ease-in 0.35s;
+    transition: background-color ease-in 0.35s;
 }
 
 .cover__overlay:hover {
