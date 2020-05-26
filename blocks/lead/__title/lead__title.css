@@ -1,11 +1,16 @@
 .lead__title {
-    font-size: 96px;
-    line-height: 100px;
-    max-width: 720px;
+    margin: 0;
     font-weight: 900;
     font-size: 96px;
-    line-height: 100px;
     text-align: center;
-    margin: 0;
-    text-rendering: optimizeLegibility;
+    max-width: 45rem;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px){
+      .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        }
 }

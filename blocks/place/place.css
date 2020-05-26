@@ -1,13 +1,48 @@
+@import url('./__image/place__image.css');
+@import url('./__paragraph/place__paragraph.css');
 @import url('./__title/place__title.css');
 @import url('./__website/place__website.css');
-@import url('./__paragraph/place__paragraph.css');
-@import url('./__image/place__image.css');
 
-.place{
+.place {
     display: grid;
-    grid-template-columns: 460px 1fr;
-    grid-template-rows: 0.1fr 1fr;
-    grid-column-gap: 40px;
-    grid-row-gap: 48px;
-    width: 100%;
+    grid-template-columns: minmax(460px, 1fr) 1fr;
+    grid-template-rows: 0.25fr 1fr;
+    row-gap: 3rem;
+    column-gap: 2.5rem;
+    width: 93%;
+    align-content: center;
+    justify-self: center;
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px){
+      .place {
+          width: 100%;
+          grid-template-columns: 1fr;
+          row-gap: 2rem;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1023px){
+      .place {
+          width: 92.5%;
+          grid-template-columns: 340px 1fr;
+          grid-template-rows: 0.25fr 1fr;
+          row-gap: 2rem;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1279px){
+      .place {
+          width: 92.5%;
+          grid-template-columns: minmax(440px, 1fr) 1fr;
+          grid-template-rows: minmax(46px, 0.25fr) 1fr;
+          row-gap: 2rem;
+      }
+}
+

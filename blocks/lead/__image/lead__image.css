@@ -1,6 +1,4 @@
 .lead__image {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 3%;
+    width: 100%;
+    object-fit: scale-down;
 }

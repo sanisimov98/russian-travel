@@ -1,14 +1,42 @@
+@import url('./__link/cover__link.css');
 @import url('./__subtitle/cover__subtitle.css');
 @import url('./__title/cover__title.css');
 @import url('./__overlay/cover__overlay.css');
 
 .cover {
-    width: 95%;
-    min-height: 100vh;
-    background-image: url('../../images/cover-trains.jpg');
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image: url("../../images/cover-trains.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: calc(100vw - 5%);
+    align-self: center;
+    justify-self: center;
+    height: calc(100vw / 2.7);
+    margin: 0 auto;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px){
+      .cover {
+        height: calc(100vw / 1.5);
+        width: calc(100vw - 5%);
+      }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1279px){
+      .cover {
+        height: calc(100vw / 1.5);
+        width: calc(100vw - 5%);
+      }
+}
+
+@media only screen 
+  and (min-device-width: 1280px){
+      .cover {
+        width: 1184px;
+        height: 740px;
+        background-size: 100%;
+      }
 }

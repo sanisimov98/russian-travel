@@ -1,10 +1,19 @@
 @import url('./__title/intro__title.css');
 @import url('./__text/intro__text.css');
+@import url('./__list/intro__list.css');
 
 .intro {
     display: flex;
     flex-wrap: wrap;
     word-wrap: normal;
     flex-direction: column;
-    max-width: 75%;
+    width: 77%;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 1024px){
+      .intro {
+          width: 95%;
+      }
 }

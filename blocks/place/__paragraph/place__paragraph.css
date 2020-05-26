@@ -4,10 +4,15 @@
     word-wrap: normal;
     grid-column: 2;
     grid-row: 2;
-    margin: 0;
-    max-width: 484px;
-    font-size: 18px;
-    line-height: 30px;
     display: flex;
     flex-direction: column;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 767px){
+      .place__paragraph {
+        grid-column: 1;
+        grid-row: 3;
+      }
 }
