@@ -1,18 +1,20 @@
-@import url('./_text/place__paragraph_text.css');
-
 .place__paragraph {
-    word-wrap: normal;
-    grid-column: 2;
-    grid-row: 2;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.place__paragraph:nth-of-type(2){
+  margin-top: 5%;
 }
 
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 767px){
-      .place__paragraph {
-        grid-column: 1;
-        grid-row: 3;
-      }
+and (min-device-width: 320px) 
+and (max-device-width: 1023px){
+    .place__paragraph {
+      font-size: 16px;
+      line-height: 26px;
+      margin: 0 1rem;
+    }
 }

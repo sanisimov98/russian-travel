@@ -14,9 +14,8 @@
   and (min-device-width: 320px) 
   and (max-device-width: 767px){
       .photo-grid {
-          width: 95%;
+          width: 90%;
           grid-template-columns: 1fr;
-          grid-template-rows: repeat(auto-fill, minmax(216px, 0.75fr));
       }
 }
 

@@ -2,9 +2,10 @@
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__image/lead__image.css');
 @import url('./__caption/lead__caption.css');
+@import url('./__figure/lead__figure.css');
 
 .lead {
-    max-width: 77%;
+    max-width: 61.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +13,15 @@
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 768px){
+  and (max-device-width: 767px){
+      .lead {
+          max-width: 100%;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1279px){
       .lead {
           max-width: 100%;
       }

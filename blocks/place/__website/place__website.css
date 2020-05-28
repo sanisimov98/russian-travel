@@ -1,18 +1,15 @@
-@import url('./_link/place__website_link.css');
-@import url('./_url-heading/place__website_url-heading.css');
-    
 .place__website {
-        grid-column: 2;
-        grid-row: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 767px){
-      .place__website {
-          display: none;
-      }
+and (min-device-width: 320px) 
+and (max-device-width: 767px){
+  .place__website {
+      display: none;
+  }
 }

@@ -1,16 +1,21 @@
+@import url('./_active/header__lang-link_active.css');
+@import url('./_disabled/header__lang-link_disabled.css');
+
 .header__lang-link {
     color: white;
     font-size: 24px;
     line-height: 0.25em;
-    text-decoration: none;
     transition: opacity ease-in 0.35s;
-}
-
-.header__lang-link:first-of-type{
-    text-decoration: underline;
-    margin: 0 0.3rem 0 0;
+    text-align: right;
 }
 
 .header__lang-link:hover {
-    opacity: 0.6;
+    opacity: 0.8;
+}
+
+@media only screen 
+  and (max-device-width: 767px){
+      .header__lang-link {
+        font-size: 18px;
+      }
 }

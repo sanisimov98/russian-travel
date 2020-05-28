@@ -1,9 +1,0 @@
-@import url('./_value/intro__list_value.css');
-@import url('./_item/intro__list_item.css');
-@import url('./_container/intro__list_container.css');
-
-.intro__list {
-    display: flex;
-    list-style: none;
-    padding: 0;
-}

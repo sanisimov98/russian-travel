@@ -1,3 +1,4 @@
+@import url('./__navigation/footer__navigation.css');
 @import url('./__links/footer__links.css');
 @import url('./__link/footer__link.css');
 @import url('./__copyright/footer__copyright.css');
@@ -8,11 +9,10 @@
     justify-content: space-between;
     width: 95%;
     margin-bottom: 1.5rem;
-    max-width: 1280px;
+    max-width: 1184px;
 }
 
 @media only screen 
-  and (min-device-width: 320px) 
   and (max-device-width: 767px){
       .footer {
           flex-direction: column;
