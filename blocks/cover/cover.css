@@ -6,7 +6,7 @@
     background-image: url("../../images/cover-trains.jpg");
     object-fit: cover;
     background-repeat: no-repeat;
-    background-size: calc(100vw - 5%);
+    background-size: 100%;
     align-self: center;
     justify-self: center;
     height: calc(100vw / 2.7);
@@ -17,7 +17,7 @@
   and (max-device-width: 767px){
       .cover {
         height: calc(100vw / 1.5);
-        width: calc(100vw - 5%);
+        width: 100%;
       }
 }
 
@@ -25,9 +25,9 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1279px){
       .cover {
-        height: calc(100vw / 1.5);
+        height: calc(100vw / 1.6);
         width: 100%;
-        background-size: calc(100%);
+        background-size: 100%;
       }
 }
 

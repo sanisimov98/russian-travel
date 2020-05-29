@@ -1,10 +1,8 @@
-@import url('./_active/header__lang-link_active.css');
-@import url('./_disabled/header__lang-link_disabled.css');
-
 .header__lang-link {
     color: white;
     font-size: 24px;
     line-height: 0.25em;
+    text-decoration: none;
     transition: opacity ease-in 0.35s;
     text-align: right;
 }

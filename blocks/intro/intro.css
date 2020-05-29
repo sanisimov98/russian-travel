@@ -1,7 +1,8 @@
 @import url('./__title/intro__title.css');
 @import url('./__text/intro__text.css');
 @import url('./__list-container/intro__list-container.css');
-@import url('./__list-item/intro__list-item.css');
+@import url('./__list-key/intro__list-key.css');
+@import url('./__list-value/intro__list-value.css');
 
 .intro {
     display: flex;
@@ -12,7 +13,6 @@
 }
 
 @media only screen 
-  and (min-device-width: 320px) 
   and (max-device-width: 1024px){
       .intro {
           width: 95%;
